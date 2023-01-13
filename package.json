@@ -1,0 +1,23 @@
+{
+  "name": "in-time",
+  "version": "1.0.0",
+  "description": "In Time is a simple application to keep your work time easily registered.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroDotta/in-time.git"
+  },
+  "author": "Leandro Dotta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeandroDotta/in-time/issues"
+  },
+  "homepage": "https://github.com/LeandroDotta/in-time#readme",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-reloader": "^1.2.3"
+  }
+}

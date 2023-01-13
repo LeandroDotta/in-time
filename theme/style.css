@@ -1,0 +1,40 @@
+:root {
+    --color-background: rgb(223, 213, 223);
+    --color-background-light: rgb(240, 233, 240);
+    --color-background-dark: rgb(102, 89, 102);
+    --color-active: rgb(148, 90, 206);
+    --color-active-light: rgb(249, 243, 255);
+    --form-min-height: 32px;
+    --form-default-radius: 0.2cm;
+    --menu-height: 48px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--color-background-light);
+}
+
+.container {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Table Default Style */
+table td {
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--color-background);
+}
